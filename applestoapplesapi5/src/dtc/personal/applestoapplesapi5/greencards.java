@@ -9,7 +9,7 @@ import java.lang.Math;
 
 public class greencards {
 	ArrayList<String> theAdjectivesList;
-	String adjectives = "strong bad good flirtatious ingenius awkward funny awful convoluted faked generic";
+	String adjectives = "strong aggravating good flirtatious ingenius awkward funny awful convoluted faked generic delicious";
 	String [] adjarray = adjectives.split(" ");
 	String lastCard = " ";
 	

@@ -8,58 +8,42 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose the best red card" />
+        android:text="Choose a winner for the word" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The adjective is:" />
-
-    <TextView
-        android:id="@+id/adj"
+        android:id="@+id/lategameGreenCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#00ff00"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The choices are" />
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/noun1"
+        android:id="@+id/lategamenoun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:text="Button" />
 
     <Button
-        android:id="@+id/noun2"
+        android:id="@+id/lategamenoun2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:text="Button" />
 
     <Button
-        android:id="@+id/noun3"
+        android:id="@+id/lategamenoun3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:text="Button" />
 
-    <TextView
-        android:id="@+id/lastWinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
     <Button
-        android:id="@+id/joingame"
+        android:id="@+id/lategamenoun4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="join game" />
+        android:textColor="#ff0000"
+        android:text="Button" />
 
 </LinearLayout>

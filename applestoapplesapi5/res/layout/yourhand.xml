@@ -8,58 +8,61 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose the best red card" />
+        android:text="The current adjective is" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The adjective is:" />
-
-    <TextView
-        android:id="@+id/adj"
+        android:id="@+id/handGreenCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#00ff00"
-        android:text="TextView" />
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/handChooseCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The choices are" />
+        android:text="Choose a card to play" />
 
     <Button
-        android:id="@+id/noun1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#ff0000"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/noun2"
+        android:id="@+id/handcard1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:text="Button" />
 
     <Button
-        android:id="@+id/noun3"
+        android:id="@+id/handcard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/handcard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/handcard4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/handcard5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:text="Button" />
 
     <TextView
-        android:id="@+id/lastWinner"
+        android:id="@+id/handWinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView" />
-
-    <Button
-        android:id="@+id/joingame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="join game" />
 
 </LinearLayout>
